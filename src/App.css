@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.employeeTable {
+  text-align: left;
+  width: 90%;
+  height: 50vh;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid;
+  border-left: 0;
+  border-right: 0;
+}
+th {
+  background-color: rgb(38, 181, 181);
+}
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: rgb(38, 181, 181);
+  border: 0;
+  border-radius: 2px;
+}
+p {
+  padding: 5px;
+  background-color: rgb(38, 181, 181);
+  border-radius: 2px;
+}
