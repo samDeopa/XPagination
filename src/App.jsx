@@ -15,7 +15,7 @@ function App() {
     )
       .then((res) => setEmployees(res.data))
       .then(() => setIsMounted(true))
-      .catch((e) => console.log(e));
+      .catch((e) => alert("failed to fetch data"));
   }, []);
   useEffect(() => {
     const start = (pageNumber - 1) * 10;
